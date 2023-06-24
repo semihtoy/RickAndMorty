@@ -14,6 +14,21 @@
 		B309E9932A475A9900E098BF /* RickAndMortyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309E9922A475A9900E098BF /* RickAndMortyTests.swift */; };
 		B309E99D2A475A9900E098BF /* RickAndMortyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309E99C2A475A9900E098BF /* RickAndMortyUITests.swift */; };
 		B309E99F2A475A9900E098BF /* RickAndMortyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309E99E2A475A9900E098BF /* RickAndMortyUITestsLaunchTests.swift */; };
+		B38D12222A4762F300639701 /* STScenes.h in Headers */ = {isa = PBXBuildFile; fileRef = B38D12212A4762F300639701 /* STScenes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B38D12252A4762F300639701 /* STScenes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38D121F2A4762F300639701 /* STScenes.framework */; };
+		B38D12262A4762F300639701 /* STScenes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B38D121F2A4762F300639701 /* STScenes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B38D12332A47630E00639701 /* STCore.h in Headers */ = {isa = PBXBuildFile; fileRef = B38D12322A47630E00639701 /* STCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B38D12362A47630E00639701 /* STCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38D12302A47630E00639701 /* STCore.framework */; };
+		B38D12372A47630E00639701 /* STCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B38D12302A47630E00639701 /* STCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B38D12432A47632500639701 /* STNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = B38D12422A47632500639701 /* STNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B38D12462A47632500639701 /* STNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38D12402A47632500639701 /* STNetwork.framework */; };
+		B38D12472A47632500639701 /* STNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B38D12402A47632500639701 /* STNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B38D12532A47634800639701 /* STEntities.h in Headers */ = {isa = PBXBuildFile; fileRef = B38D12522A47634800639701 /* STEntities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B38D12562A47634800639701 /* STEntities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38D12502A47634800639701 /* STEntities.framework */; };
+		B38D12572A47634800639701 /* STEntities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B38D12502A47634800639701 /* STEntities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B38D12632A47637000639701 /* STComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = B38D12622A47637000639701 /* STComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B38D12662A47637000639701 /* STComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38D12602A47637000639701 /* STComponents.framework */; };
+		B38D12672A47637000639701 /* STComponents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B38D12602A47637000639701 /* STComponents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +46,60 @@
 			remoteGlobalIDString = B309E97D2A475A9800E098BF;
 			remoteInfo = RickAndMorty;
 		};
+		B38D12232A4762F300639701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B309E9762A475A9800E098BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B38D121E2A4762F300639701;
+			remoteInfo = STScenes;
+		};
+		B38D12342A47630E00639701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B309E9762A475A9800E098BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B38D122F2A47630E00639701;
+			remoteInfo = STCore;
+		};
+		B38D12442A47632500639701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B309E9762A475A9800E098BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B38D123F2A47632500639701;
+			remoteInfo = STNetwork;
+		};
+		B38D12542A47634800639701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B309E9762A475A9800E098BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B38D124F2A47634800639701;
+			remoteInfo = STEntities;
+		};
+		B38D12642A47637000639701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B309E9762A475A9800E098BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B38D125F2A47637000639701;
+			remoteInfo = STComponents;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B38D12272A4762F300639701 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B38D12572A47634800639701 /* STEntities.framework in Embed Frameworks */,
+				B38D12372A47630E00639701 /* STCore.framework in Embed Frameworks */,
+				B38D12672A47637000639701 /* STComponents.framework in Embed Frameworks */,
+				B38D12472A47632500639701 /* STNetwork.framework in Embed Frameworks */,
+				B38D12262A4762F300639701 /* STScenes.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B309E97E2A475A9800E098BF /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +113,16 @@
 		B309E99C2A475A9900E098BF /* RickAndMortyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyUITests.swift; sourceTree = "<group>"; };
 		B309E99E2A475A9900E098BF /* RickAndMortyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B38D12192A47602800639701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B38D121F2A4762F300639701 /* STScenes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STScenes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38D12212A4762F300639701 /* STScenes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STScenes.h; sourceTree = "<group>"; };
+		B38D12302A47630E00639701 /* STCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38D12322A47630E00639701 /* STCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STCore.h; sourceTree = "<group>"; };
+		B38D12402A47632500639701 /* STNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38D12422A47632500639701 /* STNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STNetwork.h; sourceTree = "<group>"; };
+		B38D12502A47634800639701 /* STEntities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STEntities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38D12522A47634800639701 /* STEntities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STEntities.h; sourceTree = "<group>"; };
+		B38D12602A47637000639701 /* STComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38D12622A47637000639701 /* STComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STComponents.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +130,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B38D12562A47634800639701 /* STEntities.framework in Frameworks */,
+				B38D12362A47630E00639701 /* STCore.framework in Frameworks */,
+				B38D12662A47637000639701 /* STComponents.framework in Frameworks */,
+				B38D12462A47632500639701 /* STNetwork.framework in Frameworks */,
+				B38D12252A4762F300639701 /* STScenes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +152,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B38D121C2A4762F300639701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38D122D2A47630E00639701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38D123D2A47632500639701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38D124D2A47634800639701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38D125D2A47637000639701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +196,11 @@
 				B309E9802A475A9800E098BF /* RickAndMorty */,
 				B309E9912A475A9900E098BF /* RickAndMortyTests */,
 				B309E99B2A475A9900E098BF /* RickAndMortyUITests */,
+				B38D12202A4762F300639701 /* STScenes */,
+				B38D12312A47630E00639701 /* STCore */,
+				B38D12412A47632500639701 /* STNetwork */,
+				B38D12512A47634800639701 /* STEntities */,
+				B38D12612A47637000639701 /* STComponents */,
 				B309E97F2A475A9800E098BF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +211,11 @@
 				B309E97E2A475A9800E098BF /* RickAndMorty.app */,
 				B309E98E2A475A9900E098BF /* RickAndMortyTests.xctest */,
 				B309E9982A475A9900E098BF /* RickAndMortyUITests.xctest */,
+				B38D121F2A4762F300639701 /* STScenes.framework */,
+				B38D12302A47630E00639701 /* STCore.framework */,
+				B38D12402A47632500639701 /* STNetwork.framework */,
+				B38D12502A47634800639701 /* STEntities.framework */,
+				B38D12602A47637000639701 /* STComponents.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,7 +257,90 @@
 			path = RickAndMortyUITests;
 			sourceTree = "<group>";
 		};
+		B38D12202A4762F300639701 /* STScenes */ = {
+			isa = PBXGroup;
+			children = (
+				B38D12212A4762F300639701 /* STScenes.h */,
+			);
+			path = STScenes;
+			sourceTree = "<group>";
+		};
+		B38D12312A47630E00639701 /* STCore */ = {
+			isa = PBXGroup;
+			children = (
+				B38D12322A47630E00639701 /* STCore.h */,
+			);
+			path = STCore;
+			sourceTree = "<group>";
+		};
+		B38D12412A47632500639701 /* STNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				B38D12422A47632500639701 /* STNetwork.h */,
+			);
+			path = STNetwork;
+			sourceTree = "<group>";
+		};
+		B38D12512A47634800639701 /* STEntities */ = {
+			isa = PBXGroup;
+			children = (
+				B38D12522A47634800639701 /* STEntities.h */,
+			);
+			path = STEntities;
+			sourceTree = "<group>";
+		};
+		B38D12612A47637000639701 /* STComponents */ = {
+			isa = PBXGroup;
+			children = (
+				B38D12622A47637000639701 /* STComponents.h */,
+			);
+			path = STComponents;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B38D121A2A4762F300639701 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38D12222A4762F300639701 /* STScenes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38D122B2A47630E00639701 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38D12332A47630E00639701 /* STCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38D123B2A47632500639701 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38D12432A47632500639701 /* STNetwork.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38D124B2A47634800639701 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38D12532A47634800639701 /* STEntities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38D125B2A47637000639701 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38D12632A47637000639701 /* STComponents.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		B309E97D2A475A9800E098BF /* RickAndMorty */ = {
@@ -139,10 +350,16 @@
 				B309E97A2A475A9800E098BF /* Sources */,
 				B309E97B2A475A9800E098BF /* Frameworks */,
 				B309E97C2A475A9800E098BF /* Resources */,
+				B38D12272A4762F300639701 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B38D12242A4762F300639701 /* PBXTargetDependency */,
+				B38D12352A47630E00639701 /* PBXTargetDependency */,
+				B38D12452A47632500639701 /* PBXTargetDependency */,
+				B38D12552A47634800639701 /* PBXTargetDependency */,
+				B38D12652A47637000639701 /* PBXTargetDependency */,
 			);
 			name = RickAndMorty;
 			productName = RickAndMorty;
@@ -185,6 +402,96 @@
 			productReference = B309E9982A475A9900E098BF /* RickAndMortyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		B38D121E2A4762F300639701 /* STScenes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B38D122A2A4762F300639701 /* Build configuration list for PBXNativeTarget "STScenes" */;
+			buildPhases = (
+				B38D121A2A4762F300639701 /* Headers */,
+				B38D121B2A4762F300639701 /* Sources */,
+				B38D121C2A4762F300639701 /* Frameworks */,
+				B38D121D2A4762F300639701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STScenes;
+			productName = STScenes;
+			productReference = B38D121F2A4762F300639701 /* STScenes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B38D122F2A47630E00639701 /* STCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B38D12382A47630E00639701 /* Build configuration list for PBXNativeTarget "STCore" */;
+			buildPhases = (
+				B38D122B2A47630E00639701 /* Headers */,
+				B38D122C2A47630E00639701 /* Sources */,
+				B38D122D2A47630E00639701 /* Frameworks */,
+				B38D122E2A47630E00639701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STCore;
+			productName = STCore;
+			productReference = B38D12302A47630E00639701 /* STCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B38D123F2A47632500639701 /* STNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B38D12482A47632500639701 /* Build configuration list for PBXNativeTarget "STNetwork" */;
+			buildPhases = (
+				B38D123B2A47632500639701 /* Headers */,
+				B38D123C2A47632500639701 /* Sources */,
+				B38D123D2A47632500639701 /* Frameworks */,
+				B38D123E2A47632500639701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STNetwork;
+			productName = STNetwork;
+			productReference = B38D12402A47632500639701 /* STNetwork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B38D124F2A47634800639701 /* STEntities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B38D12582A47634800639701 /* Build configuration list for PBXNativeTarget "STEntities" */;
+			buildPhases = (
+				B38D124B2A47634800639701 /* Headers */,
+				B38D124C2A47634800639701 /* Sources */,
+				B38D124D2A47634800639701 /* Frameworks */,
+				B38D124E2A47634800639701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STEntities;
+			productName = STEntities;
+			productReference = B38D12502A47634800639701 /* STEntities.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B38D125F2A47637000639701 /* STComponents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B38D12682A47637000639701 /* Build configuration list for PBXNativeTarget "STComponents" */;
+			buildPhases = (
+				B38D125B2A47637000639701 /* Headers */,
+				B38D125C2A47637000639701 /* Sources */,
+				B38D125D2A47637000639701 /* Frameworks */,
+				B38D125E2A47637000639701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STComponents;
+			productName = STComponents;
+			productReference = B38D12602A47637000639701 /* STComponents.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +513,21 @@
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = B309E97D2A475A9800E098BF;
 					};
+					B38D121E2A4762F300639701 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B38D122F2A47630E00639701 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B38D123F2A47632500639701 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B38D124F2A47634800639701 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B38D125F2A47637000639701 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 				};
 			};
 			buildConfigurationList = B309E9792A475A9800E098BF /* Build configuration list for PBXProject "RickAndMorty" */;
@@ -224,6 +546,11 @@
 				B309E97D2A475A9800E098BF /* RickAndMorty */,
 				B309E98D2A475A9900E098BF /* RickAndMortyTests */,
 				B309E9972A475A9900E098BF /* RickAndMortyUITests */,
+				B38D121E2A4762F300639701 /* STScenes */,
+				B38D122F2A47630E00639701 /* STCore */,
+				B38D123F2A47632500639701 /* STNetwork */,
+				B38D124F2A47634800639701 /* STEntities */,
+				B38D125F2A47637000639701 /* STComponents */,
 			);
 		};
 /* End PBXProject section */
@@ -246,6 +573,41 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B309E9962A475A9900E098BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38D121D2A4762F300639701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38D122E2A47630E00639701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38D123E2A47632500639701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38D124E2A47634800639701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38D125E2A47637000639701 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,6 +643,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B38D121B2A4762F300639701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38D122C2A47630E00639701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38D123C2A47632500639701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38D124C2A47634800639701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B38D125C2A47637000639701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +690,31 @@
 			isa = PBXTargetDependency;
 			target = B309E97D2A475A9800E098BF /* RickAndMorty */;
 			targetProxy = B309E9992A475A9900E098BF /* PBXContainerItemProxy */;
+		};
+		B38D12242A4762F300639701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B38D121E2A4762F300639701 /* STScenes */;
+			targetProxy = B38D12232A4762F300639701 /* PBXContainerItemProxy */;
+		};
+		B38D12352A47630E00639701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B38D122F2A47630E00639701 /* STCore */;
+			targetProxy = B38D12342A47630E00639701 /* PBXContainerItemProxy */;
+		};
+		B38D12452A47632500639701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B38D123F2A47632500639701 /* STNetwork */;
+			targetProxy = B38D12442A47632500639701 /* PBXContainerItemProxy */;
+		};
+		B38D12552A47634800639701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B38D124F2A47634800639701 /* STEntities */;
+			targetProxy = B38D12542A47634800639701 /* PBXContainerItemProxy */;
+		};
+		B38D12652A47637000639701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B38D125F2A47637000639701 /* STComponents */;
+			targetProxy = B38D12642A47637000639701 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -545,6 +967,306 @@
 			};
 			name = Release;
 		};
+		B38D12282A4762F300639701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4C2D4G4S6B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STScenes;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B38D12292A4762F300639701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4C2D4G4S6B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STScenes;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B38D12392A47630E00639701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4C2D4G4S6B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B38D123A2A47630E00639701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4C2D4G4S6B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B38D12492A47632500639701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4C2D4G4S6B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B38D124A2A47632500639701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4C2D4G4S6B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B38D12592A47634800639701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4C2D4G4S6B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STEntities;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B38D125A2A47634800639701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4C2D4G4S6B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STEntities;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B38D12692A47637000639701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4C2D4G4S6B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STComponents;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B38D126A2A47637000639701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4C2D4G4S6B;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = toysemih.com.STComponents;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -580,6 +1302,51 @@
 			buildConfigurations = (
 				B309E9A92A475A9900E098BF /* Debug */,
 				B309E9AA2A475A9900E098BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B38D122A2A4762F300639701 /* Build configuration list for PBXNativeTarget "STScenes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38D12282A4762F300639701 /* Debug */,
+				B38D12292A4762F300639701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B38D12382A47630E00639701 /* Build configuration list for PBXNativeTarget "STCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38D12392A47630E00639701 /* Debug */,
+				B38D123A2A47630E00639701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B38D12482A47632500639701 /* Build configuration list for PBXNativeTarget "STNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38D12492A47632500639701 /* Debug */,
+				B38D124A2A47632500639701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B38D12582A47634800639701 /* Build configuration list for PBXNativeTarget "STEntities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38D12592A47634800639701 /* Debug */,
+				B38D125A2A47634800639701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B38D12682A47637000639701 /* Build configuration list for PBXNativeTarget "STComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38D12692A47637000639701 /* Debug */,
+				B38D126A2A47637000639701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
