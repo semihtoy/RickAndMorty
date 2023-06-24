@@ -29,6 +29,8 @@
 		B38D12632A47637000639701 /* STComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = B38D12622A47637000639701 /* STComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B38D12662A47637000639701 /* STComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38D12602A47637000639701 /* STComponents.framework */; };
 		B38D12672A47637000639701 /* STComponents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B38D12602A47637000639701 /* STComponents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B38D126D2A4765FD00639701 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B38D126C2A4765FD00639701 /* Alamofire */; };
+		B38D12722A47666D00639701 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B38D12712A47666D00639701 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +135,7 @@
 				B38D12562A47634800639701 /* STEntities.framework in Frameworks */,
 				B38D12362A47630E00639701 /* STCore.framework in Frameworks */,
 				B38D12662A47637000639701 /* STComponents.framework in Frameworks */,
+				B38D126D2A4765FD00639701 /* Alamofire in Frameworks */,
 				B38D12462A47632500639701 /* STNetwork.framework in Frameworks */,
 				B38D12252A4762F300639701 /* STScenes.framework in Frameworks */,
 			);
@@ -170,6 +173,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B38D12722A47666D00639701 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +206,7 @@
 				B38D12512A47634800639701 /* STEntities */,
 				B38D12612A47637000639701 /* STComponents */,
 				B309E97F2A475A9800E098BF /* Products */,
+				B38D12702A47666D00639701 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -297,6 +302,13 @@
 			path = STComponents;
 			sourceTree = "<group>";
 		};
+		B38D12702A47666D00639701 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -362,6 +374,9 @@
 				B38D12652A47637000639701 /* PBXTargetDependency */,
 			);
 			name = RickAndMorty;
+			packageProductDependencies = (
+				B38D126C2A4765FD00639701 /* Alamofire */,
+			);
 			productName = RickAndMorty;
 			productReference = B309E97E2A475A9800E098BF /* RickAndMorty.app */;
 			productType = "com.apple.product-type.application";
@@ -452,6 +467,9 @@
 			dependencies = (
 			);
 			name = STNetwork;
+			packageProductDependencies = (
+				B38D12712A47666D00639701 /* Alamofire */,
+			);
 			productName = STNetwork;
 			productReference = B38D12402A47632500639701 /* STNetwork.framework */;
 			productType = "com.apple.product-type.framework";
@@ -521,6 +539,7 @@
 					};
 					B38D123F2A47632500639701 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 					B38D124F2A47634800639701 = {
 						CreatedOnToolsVersion = 14.2;
@@ -539,6 +558,9 @@
 				Base,
 			);
 			mainGroup = B309E9752A475A9800E098BF;
+			packageReferences = (
+				B38D126B2A4765FD00639701 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = B309E97F2A475A9800E098BF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1090,6 +1112,7 @@
 		B38D12492A47632500639701 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1110,6 +1133,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1120,6 +1144,7 @@
 		B38D124A2A47632500639701 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1352,6 +1377,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B38D126B2A4765FD00639701 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B38D126C2A4765FD00639701 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B38D126B2A4765FD00639701 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		B38D12712A47666D00639701 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B38D126B2A4765FD00639701 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B309E9762A475A9800E098BF /* Project object */;
 }
