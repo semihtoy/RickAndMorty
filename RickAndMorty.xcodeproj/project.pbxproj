@@ -19,6 +19,9 @@
 		B30B38752A49820A00FB7E26 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30B38742A49820A00FB7E26 /* BundleExtensions.swift */; };
 		B30B38772A49821300FB7E26 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30B38762A49821300FB7E26 /* BundleExtensions.swift */; };
 		B30B38792A49821C00FB7E26 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30B38782A49821C00FB7E26 /* BundleExtensions.swift */; };
+		B30B387B2A49845B00FB7E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30B387A2A49845B00FB7E26 /* Assets.xcassets */; };
+		B30B387E2A4984A000FB7E26 /* ImageConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30B387D2A4984A000FB7E26 /* ImageConvertible.swift */; };
+		B30B38802A49852500FB7E26 /* ComponentImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30B387F2A49852500FB7E26 /* ComponentImage.swift */; };
 		B38D12222A4762F300639701 /* STScenes.h in Headers */ = {isa = PBXBuildFile; fileRef = B38D12212A4762F300639701 /* STScenes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B38D12252A4762F300639701 /* STScenes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38D121F2A4762F300639701 /* STScenes.framework */; };
 		B38D12262A4762F300639701 /* STScenes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B38D121F2A4762F300639701 /* STScenes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -124,6 +127,9 @@
 		B30B38742A49820A00FB7E26 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
 		B30B38762A49821300FB7E26 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
 		B30B38782A49821C00FB7E26 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
+		B30B387A2A49845B00FB7E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B30B387D2A4984A000FB7E26 /* ImageConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConvertible.swift; sourceTree = "<group>"; };
+		B30B387F2A49852500FB7E26 /* ComponentImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentImage.swift; sourceTree = "<group>"; };
 		B38D12192A47602800639701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B38D121F2A4762F300639701 /* STScenes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STScenes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38D12212A4762F300639701 /* STScenes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STScenes.h; sourceTree = "<group>"; };
@@ -312,6 +318,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		B30B387C2A49846400FB7E26 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B30B387D2A4984A000FB7E26 /* ImageConvertible.swift */,
+				B30B387F2A49852500FB7E26 /* ComponentImage.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		B38D12202A4762F300639701 /* STScenes */ = {
 			isa = PBXGroup;
 			children = (
@@ -351,8 +366,10 @@
 		B38D12612A47637000639701 /* STComponents */ = {
 			isa = PBXGroup;
 			children = (
+				B30B387C2A49846400FB7E26 /* Helpers */,
 				B30B38712A4981BA00FB7E26 /* Extensions */,
 				B38D12622A47637000639701 /* STComponents.h */,
+				B30B387A2A49845B00FB7E26 /* Assets.xcassets */,
 			);
 			path = STComponents;
 			sourceTree = "<group>";
@@ -692,6 +709,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30B387B2A49845B00FB7E26 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -761,6 +779,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B30B38732A4981FF00FB7E26 /* BundleExtensions.swift in Sources */,
+				B30B387E2A4984A000FB7E26 /* ImageConvertible.swift in Sources */,
+				B30B38802A49852500FB7E26 /* ComponentImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
