@@ -14,6 +14,11 @@
 		B309E9932A475A9900E098BF /* RickAndMortyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309E9922A475A9900E098BF /* RickAndMortyTests.swift */; };
 		B309E99D2A475A9900E098BF /* RickAndMortyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309E99C2A475A9900E098BF /* RickAndMortyUITests.swift */; };
 		B309E99F2A475A9900E098BF /* RickAndMortyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309E99E2A475A9900E098BF /* RickAndMortyUITestsLaunchTests.swift */; };
+		B30B386D2A49816500FB7E26 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30B386C2A49816500FB7E26 /* BundleExtensions.swift */; };
+		B30B38732A4981FF00FB7E26 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30B38722A4981FF00FB7E26 /* BundleExtensions.swift */; };
+		B30B38752A49820A00FB7E26 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30B38742A49820A00FB7E26 /* BundleExtensions.swift */; };
+		B30B38772A49821300FB7E26 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30B38762A49821300FB7E26 /* BundleExtensions.swift */; };
+		B30B38792A49821C00FB7E26 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30B38782A49821C00FB7E26 /* BundleExtensions.swift */; };
 		B38D12222A4762F300639701 /* STScenes.h in Headers */ = {isa = PBXBuildFile; fileRef = B38D12212A4762F300639701 /* STScenes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B38D12252A4762F300639701 /* STScenes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38D121F2A4762F300639701 /* STScenes.framework */; };
 		B38D12262A4762F300639701 /* STScenes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B38D121F2A4762F300639701 /* STScenes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -114,6 +119,11 @@
 		B309E9982A475A9900E098BF /* RickAndMortyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMortyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B309E99C2A475A9900E098BF /* RickAndMortyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyUITests.swift; sourceTree = "<group>"; };
 		B309E99E2A475A9900E098BF /* RickAndMortyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B30B386C2A49816500FB7E26 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
+		B30B38722A4981FF00FB7E26 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
+		B30B38742A49820A00FB7E26 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
+		B30B38762A49821300FB7E26 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
+		B30B38782A49821C00FB7E26 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
 		B38D12192A47602800639701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B38D121F2A4762F300639701 /* STScenes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STScenes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38D12212A4762F300639701 /* STScenes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STScenes.h; sourceTree = "<group>"; };
@@ -262,9 +272,50 @@
 			path = RickAndMortyUITests;
 			sourceTree = "<group>";
 		};
+		B30B386B2A49814E00FB7E26 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B30B386C2A49816500FB7E26 /* BundleExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B30B386E2A49816B00FB7E26 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B30B38782A49821C00FB7E26 /* BundleExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B30B386F2A4981A000FB7E26 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B30B38762A49821300FB7E26 /* BundleExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B30B38702A4981AF00FB7E26 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B30B38742A49820A00FB7E26 /* BundleExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B30B38712A4981BA00FB7E26 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B30B38722A4981FF00FB7E26 /* BundleExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		B38D12202A4762F300639701 /* STScenes */ = {
 			isa = PBXGroup;
 			children = (
+				B30B386B2A49814E00FB7E26 /* Extensions */,
 				B38D12212A4762F300639701 /* STScenes.h */,
 			);
 			path = STScenes;
@@ -273,6 +324,7 @@
 		B38D12312A47630E00639701 /* STCore */ = {
 			isa = PBXGroup;
 			children = (
+				B30B386E2A49816B00FB7E26 /* Extensions */,
 				B38D12322A47630E00639701 /* STCore.h */,
 			);
 			path = STCore;
@@ -281,6 +333,7 @@
 		B38D12412A47632500639701 /* STNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				B30B386F2A4981A000FB7E26 /* Extensions */,
 				B38D12422A47632500639701 /* STNetwork.h */,
 			);
 			path = STNetwork;
@@ -289,6 +342,7 @@
 		B38D12512A47634800639701 /* STEntities */ = {
 			isa = PBXGroup;
 			children = (
+				B30B38702A4981AF00FB7E26 /* Extensions */,
 				B38D12522A47634800639701 /* STEntities.h */,
 			);
 			path = STEntities;
@@ -297,6 +351,7 @@
 		B38D12612A47637000639701 /* STComponents */ = {
 			isa = PBXGroup;
 			children = (
+				B30B38712A4981BA00FB7E26 /* Extensions */,
 				B38D12622A47637000639701 /* STComponents.h */,
 			);
 			path = STComponents;
@@ -533,9 +588,11 @@
 					};
 					B38D121E2A4762F300639701 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 					B38D122F2A47630E00639701 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 					B38D123F2A47632500639701 = {
 						CreatedOnToolsVersion = 14.2;
@@ -543,9 +600,11 @@
 					};
 					B38D124F2A47634800639701 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 					B38D125F2A47637000639701 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -669,6 +728,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30B386D2A49816500FB7E26 /* BundleExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,6 +736,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30B38792A49821C00FB7E26 /* BundleExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -683,6 +744,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30B38772A49821300FB7E26 /* BundleExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -690,6 +752,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30B38752A49820A00FB7E26 /* BundleExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -697,6 +760,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30B38732A4981FF00FB7E26 /* BundleExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -858,6 +922,7 @@
 		B309E9A32A475A9900E098BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -887,6 +952,7 @@
 		B309E9A42A475A9900E098BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -992,6 +1058,7 @@
 		B38D12282A4762F300639701 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1012,6 +1079,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1022,6 +1090,7 @@
 		B38D12292A4762F300639701 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1052,6 +1121,7 @@
 		B38D12392A47630E00639701 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1072,6 +1142,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1082,6 +1153,7 @@
 		B38D123A2A47630E00639701 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1175,6 +1247,7 @@
 		B38D12592A47634800639701 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1195,6 +1268,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1205,6 +1279,7 @@
 		B38D125A2A47634800639701 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1235,6 +1310,7 @@
 		B38D12692A47637000639701 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1255,6 +1331,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1265,6 +1342,7 @@
 		B38D126A2A47637000639701 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
