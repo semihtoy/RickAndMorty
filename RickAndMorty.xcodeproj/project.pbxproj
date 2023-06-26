@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B309E9822A475A9800E098BF /* RickAndMortyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309E9812A475A9800E098BF /* RickAndMortyApp.swift */; };
 		B309E9842A475A9800E098BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309E9832A475A9800E098BF /* ContentView.swift */; };
-		B309E9862A475A9900E098BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B309E9852A475A9900E098BF /* Assets.xcassets */; };
 		B309E9892A475A9900E098BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B309E9882A475A9900E098BF /* Preview Assets.xcassets */; };
 		B309E9932A475A9900E098BF /* RickAndMortyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309E9922A475A9900E098BF /* RickAndMortyTests.swift */; };
 		B309E99D2A475A9900E098BF /* RickAndMortyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309E99C2A475A9900E098BF /* RickAndMortyUITests.swift */; };
@@ -115,7 +114,6 @@
 		B309E97E2A475A9800E098BF /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B309E9812A475A9800E098BF /* RickAndMortyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyApp.swift; sourceTree = "<group>"; };
 		B309E9832A475A9800E098BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B309E9852A475A9900E098BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B309E9882A475A9900E098BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B309E98E2A475A9900E098BF /* RickAndMortyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMortyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B309E9922A475A9900E098BF /* RickAndMortyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyTests.swift; sourceTree = "<group>"; };
@@ -247,7 +245,6 @@
 				B38D12192A47602800639701 /* Info.plist */,
 				B309E9812A475A9800E098BF /* RickAndMortyApp.swift */,
 				B309E9832A475A9800E098BF /* ContentView.swift */,
-				B309E9852A475A9900E098BF /* Assets.xcassets */,
 				B309E9872A475A9900E098BF /* Preview Content */,
 			);
 			path = RickAndMorty;
@@ -659,7 +656,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B309E9892A475A9900E098BF /* Preview Assets.xcassets in Resources */,
-				B309E9862A475A9900E098BF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -943,7 +939,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -973,7 +968,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
