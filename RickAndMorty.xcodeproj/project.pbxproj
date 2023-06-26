@@ -211,7 +211,6 @@
 		B309E9752A475A9800E098BF = {
 			isa = PBXGroup;
 			children = (
-				B309E9802A475A9800E098BF /* RickAndMorty */,
 				B309E9912A475A9900E098BF /* RickAndMortyTests */,
 				B309E99B2A475A9900E098BF /* RickAndMortyUITests */,
 				B38D12202A4762F300639701 /* STScenes */,
@@ -237,13 +236,6 @@
 				B38D12602A47637000639701 /* STComponents.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B309E9802A475A9800E098BF /* RickAndMorty */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = RickAndMorty;
 			sourceTree = "<group>";
 		};
 		B309E9872A475A9900E098BF /* Preview Content */ = {
