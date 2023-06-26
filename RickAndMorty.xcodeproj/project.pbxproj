@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B309E9822A475A9800E098BF /* RickAndMortyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309E9812A475A9800E098BF /* RickAndMortyApp.swift */; };
-		B309E9842A475A9800E098BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309E9832A475A9800E098BF /* ContentView.swift */; };
-		B309E9862A475A9900E098BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B309E9852A475A9900E098BF /* Assets.xcassets */; };
+		B309E9842A475A9800E098BF /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309E9832A475A9800E098BF /* Splash.swift */; };
 		B309E9892A475A9900E098BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B309E9882A475A9900E098BF /* Preview Assets.xcassets */; };
 		B309E9932A475A9900E098BF /* RickAndMortyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309E9922A475A9900E098BF /* RickAndMortyTests.swift */; };
 		B309E99D2A475A9900E098BF /* RickAndMortyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309E99C2A475A9900E098BF /* RickAndMortyUITests.swift */; };
@@ -114,8 +113,7 @@
 /* Begin PBXFileReference section */
 		B309E97E2A475A9800E098BF /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B309E9812A475A9800E098BF /* RickAndMortyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyApp.swift; sourceTree = "<group>"; };
-		B309E9832A475A9800E098BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B309E9852A475A9900E098BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B309E9832A475A9800E098BF /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
 		B309E9882A475A9900E098BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B309E98E2A475A9900E098BF /* RickAndMortyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMortyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B309E9922A475A9900E098BF /* RickAndMortyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyTests.swift; sourceTree = "<group>"; };
@@ -130,7 +128,7 @@
 		B30B387A2A49845B00FB7E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B30B387D2A4984A000FB7E26 /* ImageConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConvertible.swift; sourceTree = "<group>"; };
 		B30B387F2A49852500FB7E26 /* ComponentImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentImage.swift; sourceTree = "<group>"; };
-		B38D12192A47602800639701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B38D12192A47602800639701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B38D121F2A4762F300639701 /* STScenes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STScenes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38D12212A4762F300639701 /* STScenes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STScenes.h; sourceTree = "<group>"; };
 		B38D12302A47630E00639701 /* STCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -213,7 +211,6 @@
 		B309E9752A475A9800E098BF = {
 			isa = PBXGroup;
 			children = (
-				B309E9802A475A9800E098BF /* RickAndMorty */,
 				B309E9912A475A9900E098BF /* RickAndMortyTests */,
 				B309E99B2A475A9900E098BF /* RickAndMortyUITests */,
 				B38D12202A4762F300639701 /* STScenes */,
@@ -239,18 +236,6 @@
 				B38D12602A47637000639701 /* STComponents.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B309E9802A475A9800E098BF /* RickAndMorty */ = {
-			isa = PBXGroup;
-			children = (
-				B38D12192A47602800639701 /* Info.plist */,
-				B309E9812A475A9800E098BF /* RickAndMortyApp.swift */,
-				B309E9832A475A9800E098BF /* ContentView.swift */,
-				B309E9852A475A9900E098BF /* Assets.xcassets */,
-				B309E9872A475A9900E098BF /* Preview Content */,
-			);
-			path = RickAndMorty;
 			sourceTree = "<group>";
 		};
 		B309E9872A475A9900E098BF /* Preview Content */ = {
@@ -327,9 +312,37 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		B30B38B12A4990E500FB7E26 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B38D12192A47602800639701 /* Info.plist */,
+				B309E9812A475A9800E098BF /* RickAndMortyApp.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B30B38B22A49910800FB7E26 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B30B38B32A49911200FB7E26 /* Splash */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		B30B38B32A49911200FB7E26 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				B309E9832A475A9800E098BF /* Splash.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
 		B38D12202A4762F300639701 /* STScenes */ = {
 			isa = PBXGroup;
 			children = (
+				B309E9872A475A9900E098BF /* Preview Content */,
+				B30B38B22A49910800FB7E26 /* Scenes */,
+				B30B38B12A4990E500FB7E26 /* Resources */,
 				B30B386B2A49814E00FB7E26 /* Extensions */,
 				B38D12212A4762F300639701 /* STScenes.h */,
 			);
@@ -659,7 +672,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B309E9892A475A9900E098BF /* Preview Assets.xcassets in Resources */,
-				B309E9862A475A9900E098BF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -720,7 +732,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B309E9842A475A9800E098BF /* ContentView.swift in Sources */,
+				B309E9842A475A9800E098BF /* Splash.swift in Sources */,
 				B309E9822A475A9800E098BF /* RickAndMortyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -943,15 +955,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RickAndMorty/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"STScenes/Preview Content\"";
 				DEVELOPMENT_TEAM = 4C2D4G4S6B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RickAndMorty/Info.plist;
+				INFOPLIST_FILE = STScenes/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -973,15 +984,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"RickAndMorty/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"STScenes/Preview Content\"";
 				DEVELOPMENT_TEAM = 4C2D4G4S6B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RickAndMorty/Info.plist;
+				INFOPLIST_FILE = STScenes/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
