@@ -124,9 +124,9 @@
 		B30A99F22A7ECC59001434C9 /* RickAndMortyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyApp.swift; sourceTree = "<group>"; };
 		B30A99F62A7ECC5A001434C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B30A99F92A7ECC5A001434C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B30A99FF2A7ECC5A001434C9 /* RickAndMortyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMortyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30A99FF2A7ECC5A001434C9 /* RickAndMortyTests.swiftmodule */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMortyTests.swiftmodule; sourceTree = BUILT_PRODUCTS_DIR; };
 		B30A9A032A7ECC5A001434C9 /* RickAndMortyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyTests.swift; sourceTree = "<group>"; };
-		B30A9A092A7ECC5A001434C9 /* RickAndMortyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMortyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30A9A092A7ECC5A001434C9 /* RickAndMortyUITests.swiftmodule */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMortyUITests.swiftmodule; sourceTree = BUILT_PRODUCTS_DIR; };
 		B30A9A0D2A7ECC5A001434C9 /* RickAndMortyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyUITests.swift; sourceTree = "<group>"; };
 		B30A9A0F2A7ECC5A001434C9 /* RickAndMortyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B30A9A242A7ECC7C001434C9 /* STScenes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STScenes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -245,8 +245,8 @@
 			isa = PBXGroup;
 			children = (
 				B30A99EF2A7ECC59001434C9 /* RickAndMorty.app */,
-				B30A99FF2A7ECC5A001434C9 /* RickAndMortyTests.xctest */,
-				B30A9A092A7ECC5A001434C9 /* RickAndMortyUITests.xctest */,
+				B30A99FF2A7ECC5A001434C9 /* RickAndMortyTests.swiftmodule */,
+				B30A9A092A7ECC5A001434C9 /* RickAndMortyUITests.swiftmodule */,
 				B30A9A242A7ECC7C001434C9 /* STScenes.framework */,
 				B30A9A352A7ED07F001434C9 /* STCore.framework */,
 				B30A9A452A7ED08C001434C9 /* STNetwork.framework */,
@@ -498,7 +498,7 @@
 			);
 			name = RickAndMortyTests;
 			productName = RickAndMortyTests;
-			productReference = B30A99FF2A7ECC5A001434C9 /* RickAndMortyTests.xctest */;
+			productReference = B30A99FF2A7ECC5A001434C9 /* RickAndMortyTests.swiftmodule */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		B30A9A082A7ECC5A001434C9 /* RickAndMortyUITests */ = {
@@ -516,7 +516,7 @@
 			);
 			name = RickAndMortyUITests;
 			productName = RickAndMortyUITests;
-			productReference = B30A9A092A7ECC5A001434C9 /* RickAndMortyUITests.xctest */;
+			productReference = B30A9A092A7ECC5A001434C9 /* RickAndMortyUITests.swiftmodule */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		B30A9A232A7ECC7C001434C9 /* STScenes */ = {
