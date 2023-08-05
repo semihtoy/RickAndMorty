@@ -1,15 +1,17 @@
 //
 //  Splash.swift
-//  RickAndMorty
+//  STScenes
 //
-//  Created by SemihTOY on 24.06.2023.
+//  Created by SemihTOY on 5.08.2023.
 //
 
 import SwiftUI
 import STComponents
 
-struct SplashContentView: View {
-    var body: some View {
+public struct SplashView: View {
+
+  public init() { }
+  public var body: some View {
       GeometryReader { geometry in
         Image(uiImage: ComponentImage.splash.image)
               .resizable()
@@ -21,8 +23,8 @@ struct SplashContentView: View {
   }
 }
 
-struct SplashContentView_Previews: PreviewProvider {
+struct SplashView_Previews: PreviewProvider {
     static var previews: some View {
-      SplashContentView()
+      SplashView()
     }
 }

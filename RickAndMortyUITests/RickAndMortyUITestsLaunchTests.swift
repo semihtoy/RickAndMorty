@@ -2,7 +2,7 @@
 //  RickAndMortyUITestsLaunchTests.swift
 //  RickAndMortyUITests
 //
-//  Created by SemihTOY on 24.06.2023.
+//  Created by SemihTOY on 5.08.2023.
 //
 
 import XCTest
