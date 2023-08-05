@@ -7,103 +7,112 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B309E9822A475A9800E098BF /* RickAndMortyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309E9812A475A9800E098BF /* RickAndMortyApp.swift */; };
-		B309E9842A475A9800E098BF /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309E9832A475A9800E098BF /* Splash.swift */; };
-		B309E9892A475A9900E098BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B309E9882A475A9900E098BF /* Preview Assets.xcassets */; };
-		B309E9932A475A9900E098BF /* RickAndMortyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309E9922A475A9900E098BF /* RickAndMortyTests.swift */; };
-		B309E99D2A475A9900E098BF /* RickAndMortyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309E99C2A475A9900E098BF /* RickAndMortyUITests.swift */; };
-		B309E99F2A475A9900E098BF /* RickAndMortyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309E99E2A475A9900E098BF /* RickAndMortyUITestsLaunchTests.swift */; };
-		B30B386D2A49816500FB7E26 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30B386C2A49816500FB7E26 /* BundleExtensions.swift */; };
-		B30B38732A4981FF00FB7E26 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30B38722A4981FF00FB7E26 /* BundleExtensions.swift */; };
-		B30B38752A49820A00FB7E26 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30B38742A49820A00FB7E26 /* BundleExtensions.swift */; };
-		B30B38772A49821300FB7E26 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30B38762A49821300FB7E26 /* BundleExtensions.swift */; };
-		B30B38792A49821C00FB7E26 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30B38782A49821C00FB7E26 /* BundleExtensions.swift */; };
-		B30B387B2A49845B00FB7E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30B387A2A49845B00FB7E26 /* Assets.xcassets */; };
-		B30B387E2A4984A000FB7E26 /* ImageConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30B387D2A4984A000FB7E26 /* ImageConvertible.swift */; };
-		B30B38802A49852500FB7E26 /* ComponentImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30B387F2A49852500FB7E26 /* ComponentImage.swift */; };
-		B38D12222A4762F300639701 /* STScenes.h in Headers */ = {isa = PBXBuildFile; fileRef = B38D12212A4762F300639701 /* STScenes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B38D12252A4762F300639701 /* STScenes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38D121F2A4762F300639701 /* STScenes.framework */; };
-		B38D12262A4762F300639701 /* STScenes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B38D121F2A4762F300639701 /* STScenes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B38D12332A47630E00639701 /* STCore.h in Headers */ = {isa = PBXBuildFile; fileRef = B38D12322A47630E00639701 /* STCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B38D12362A47630E00639701 /* STCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38D12302A47630E00639701 /* STCore.framework */; };
-		B38D12372A47630E00639701 /* STCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B38D12302A47630E00639701 /* STCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B38D12432A47632500639701 /* STNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = B38D12422A47632500639701 /* STNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B38D12462A47632500639701 /* STNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38D12402A47632500639701 /* STNetwork.framework */; };
-		B38D12472A47632500639701 /* STNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B38D12402A47632500639701 /* STNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B38D12532A47634800639701 /* STEntities.h in Headers */ = {isa = PBXBuildFile; fileRef = B38D12522A47634800639701 /* STEntities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B38D12562A47634800639701 /* STEntities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38D12502A47634800639701 /* STEntities.framework */; };
-		B38D12572A47634800639701 /* STEntities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B38D12502A47634800639701 /* STEntities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B38D12632A47637000639701 /* STComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = B38D12622A47637000639701 /* STComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B38D12662A47637000639701 /* STComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38D12602A47637000639701 /* STComponents.framework */; };
-		B38D12672A47637000639701 /* STComponents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B38D12602A47637000639701 /* STComponents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B38D126D2A4765FD00639701 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B38D126C2A4765FD00639701 /* Alamofire */; };
-		B38D12722A47666D00639701 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B38D12712A47666D00639701 /* Alamofire */; };
+		B30A99F32A7ECC59001434C9 /* RickAndMortyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30A99F22A7ECC59001434C9 /* RickAndMortyApp.swift */; };
+		B30A99F72A7ECC5A001434C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30A99F62A7ECC5A001434C9 /* Assets.xcassets */; };
+		B30A99FA2A7ECC5A001434C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30A99F92A7ECC5A001434C9 /* Preview Assets.xcassets */; };
+		B30A9A042A7ECC5A001434C9 /* RickAndMortyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30A9A032A7ECC5A001434C9 /* RickAndMortyTests.swift */; };
+		B30A9A0E2A7ECC5A001434C9 /* RickAndMortyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30A9A0D2A7ECC5A001434C9 /* RickAndMortyUITests.swift */; };
+		B30A9A102A7ECC5A001434C9 /* RickAndMortyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30A9A0F2A7ECC5A001434C9 /* RickAndMortyUITestsLaunchTests.swift */; };
+		B30A9A1E2A7ECC6C001434C9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B30A9A1D2A7ECC6C001434C9 /* Alamofire */; };
+		B30A9A272A7ECC7C001434C9 /* STScenes.h in Headers */ = {isa = PBXBuildFile; fileRef = B30A9A262A7ECC7C001434C9 /* STScenes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B30A9A2A2A7ECC7C001434C9 /* STScenes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30A9A242A7ECC7C001434C9 /* STScenes.framework */; };
+		B30A9A2B2A7ECC7C001434C9 /* STScenes.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B30A9A242A7ECC7C001434C9 /* STScenes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B30A9A382A7ED07F001434C9 /* STCore.h in Headers */ = {isa = PBXBuildFile; fileRef = B30A9A372A7ED07F001434C9 /* STCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B30A9A3B2A7ED07F001434C9 /* STCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30A9A352A7ED07F001434C9 /* STCore.framework */; };
+		B30A9A3C2A7ED07F001434C9 /* STCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B30A9A352A7ED07F001434C9 /* STCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B30A9A482A7ED08C001434C9 /* STNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = B30A9A472A7ED08C001434C9 /* STNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B30A9A4B2A7ED08C001434C9 /* STNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30A9A452A7ED08C001434C9 /* STNetwork.framework */; };
+		B30A9A4C2A7ED08C001434C9 /* STNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B30A9A452A7ED08C001434C9 /* STNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B30A9A582A7ED0A1001434C9 /* STEntities.h in Headers */ = {isa = PBXBuildFile; fileRef = B30A9A572A7ED0A1001434C9 /* STEntities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B30A9A5B2A7ED0A1001434C9 /* STEntities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30A9A552A7ED0A1001434C9 /* STEntities.framework */; };
+		B30A9A5C2A7ED0A1001434C9 /* STEntities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B30A9A552A7ED0A1001434C9 /* STEntities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B30A9A682A7ED0B6001434C9 /* STComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = B30A9A672A7ED0B6001434C9 /* STComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B30A9A6B2A7ED0B6001434C9 /* STComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30A9A652A7ED0B6001434C9 /* STComponents.framework */; };
+		B30A9A6C2A7ED0B6001434C9 /* STComponents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B30A9A652A7ED0B6001434C9 /* STComponents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B30A9A722A7ED0D8001434C9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B30A9A712A7ED0D8001434C9 /* Alamofire */; };
+		B30A9A732A7ED0E2001434C9 /* STCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30A9A352A7ED07F001434C9 /* STCore.framework */; };
+		B30A9A742A7ED0E2001434C9 /* STEntities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30A9A552A7ED0A1001434C9 /* STEntities.framework */; };
+		B30A9A752A7ED0EE001434C9 /* STCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30A9A352A7ED07F001434C9 /* STCore.framework */; };
+		B30A9A762A7ED0EE001434C9 /* STEntities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30A9A552A7ED0A1001434C9 /* STEntities.framework */; };
+		B30A9A772A7ED100001434C9 /* STComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30A9A652A7ED0B6001434C9 /* STComponents.framework */; };
+		B30A9A782A7ED100001434C9 /* STCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30A9A352A7ED07F001434C9 /* STCore.framework */; };
+		B30A9A792A7ED100001434C9 /* STEntities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30A9A552A7ED0A1001434C9 /* STEntities.framework */; };
+		B30A9A7A2A7ED100001434C9 /* STNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B30A9A452A7ED08C001434C9 /* STNetwork.framework */; };
+		B30A9A7D2A7ED167001434C9 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30A9A7C2A7ED167001434C9 /* BundleExtensions.swift */; };
+		B30A9A802A7ED1A9001434C9 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30A9A7F2A7ED1A9001434C9 /* BundleExtensions.swift */; };
+		B30A9A852A7ED1E2001434C9 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30A9A842A7ED1E2001434C9 /* BundleExtensions.swift */; };
+		B30A9A872A7ED1EA001434C9 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30A9A862A7ED1EA001434C9 /* BundleExtensions.swift */; };
+		B30A9A892A7ED1F3001434C9 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30A9A882A7ED1F3001434C9 /* BundleExtensions.swift */; };
+		B30A9A8C2A7ED237001434C9 /* ImageConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30A9A8B2A7ED237001434C9 /* ImageConvertible.swift */; };
+		B30A9A8E2A7ED26F001434C9 /* ComponentImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30A9A8D2A7ED26F001434C9 /* ComponentImage.swift */; };
+		B30A9A902A7ED29B001434C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30A9A8F2A7ED29B001434C9 /* Assets.xcassets */; };
+		B30A9A942A7ED389001434C9 /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30A9A932A7ED389001434C9 /* Splash.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B309E98F2A475A9900E098BF /* PBXContainerItemProxy */ = {
+		B30A9A002A7ECC5A001434C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B309E9762A475A9800E098BF /* Project object */;
+			containerPortal = B30A99E72A7ECC59001434C9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B309E97D2A475A9800E098BF;
+			remoteGlobalIDString = B30A99EE2A7ECC59001434C9;
 			remoteInfo = RickAndMorty;
 		};
-		B309E9992A475A9900E098BF /* PBXContainerItemProxy */ = {
+		B30A9A0A2A7ECC5A001434C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B309E9762A475A9800E098BF /* Project object */;
+			containerPortal = B30A99E72A7ECC59001434C9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B309E97D2A475A9800E098BF;
+			remoteGlobalIDString = B30A99EE2A7ECC59001434C9;
 			remoteInfo = RickAndMorty;
 		};
-		B38D12232A4762F300639701 /* PBXContainerItemProxy */ = {
+		B30A9A282A7ECC7C001434C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B309E9762A475A9800E098BF /* Project object */;
+			containerPortal = B30A99E72A7ECC59001434C9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B38D121E2A4762F300639701;
+			remoteGlobalIDString = B30A9A232A7ECC7C001434C9;
 			remoteInfo = STScenes;
 		};
-		B38D12342A47630E00639701 /* PBXContainerItemProxy */ = {
+		B30A9A392A7ED07F001434C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B309E9762A475A9800E098BF /* Project object */;
+			containerPortal = B30A99E72A7ECC59001434C9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B38D122F2A47630E00639701;
+			remoteGlobalIDString = B30A9A342A7ED07F001434C9;
 			remoteInfo = STCore;
 		};
-		B38D12442A47632500639701 /* PBXContainerItemProxy */ = {
+		B30A9A492A7ED08C001434C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B309E9762A475A9800E098BF /* Project object */;
+			containerPortal = B30A99E72A7ECC59001434C9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B38D123F2A47632500639701;
+			remoteGlobalIDString = B30A9A442A7ED08C001434C9;
 			remoteInfo = STNetwork;
 		};
-		B38D12542A47634800639701 /* PBXContainerItemProxy */ = {
+		B30A9A592A7ED0A1001434C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B309E9762A475A9800E098BF /* Project object */;
+			containerPortal = B30A99E72A7ECC59001434C9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B38D124F2A47634800639701;
+			remoteGlobalIDString = B30A9A542A7ED0A1001434C9;
 			remoteInfo = STEntities;
 		};
-		B38D12642A47637000639701 /* PBXContainerItemProxy */ = {
+		B30A9A692A7ED0B6001434C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B309E9762A475A9800E098BF /* Project object */;
+			containerPortal = B30A99E72A7ECC59001434C9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B38D125F2A47637000639701;
+			remoteGlobalIDString = B30A9A642A7ED0B6001434C9;
 			remoteInfo = STComponents;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B38D12272A4762F300639701 /* Embed Frameworks */ = {
+		B30A9A2F2A7ECC7C001434C9 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B38D12572A47634800639701 /* STEntities.framework in Embed Frameworks */,
-				B38D12372A47630E00639701 /* STCore.framework in Embed Frameworks */,
-				B38D12672A47637000639701 /* STComponents.framework in Embed Frameworks */,
-				B38D12472A47632500639701 /* STNetwork.framework in Embed Frameworks */,
-				B38D12262A4762F300639701 /* STScenes.framework in Embed Frameworks */,
+				B30A9A5C2A7ED0A1001434C9 /* STEntities.framework in Embed Frameworks */,
+				B30A9A3C2A7ED07F001434C9 /* STCore.framework in Embed Frameworks */,
+				B30A9A6C2A7ED0B6001434C9 /* STComponents.framework in Embed Frameworks */,
+				B30A9A4C2A7ED08C001434C9 /* STNetwork.framework in Embed Frameworks */,
+				B30A9A2B2A7ECC7C001434C9 /* STScenes.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -111,405 +120,413 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B309E97E2A475A9800E098BF /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B309E9812A475A9800E098BF /* RickAndMortyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyApp.swift; sourceTree = "<group>"; };
-		B309E9832A475A9800E098BF /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
-		B309E9882A475A9900E098BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B309E98E2A475A9900E098BF /* RickAndMortyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMortyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B309E9922A475A9900E098BF /* RickAndMortyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyTests.swift; sourceTree = "<group>"; };
-		B309E9982A475A9900E098BF /* RickAndMortyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMortyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B309E99C2A475A9900E098BF /* RickAndMortyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyUITests.swift; sourceTree = "<group>"; };
-		B309E99E2A475A9900E098BF /* RickAndMortyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B30B386C2A49816500FB7E26 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
-		B30B38722A4981FF00FB7E26 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
-		B30B38742A49820A00FB7E26 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
-		B30B38762A49821300FB7E26 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
-		B30B38782A49821C00FB7E26 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
-		B30B387A2A49845B00FB7E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B30B387D2A4984A000FB7E26 /* ImageConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConvertible.swift; sourceTree = "<group>"; };
-		B30B387F2A49852500FB7E26 /* ComponentImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentImage.swift; sourceTree = "<group>"; };
-		B38D12192A47602800639701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B38D121F2A4762F300639701 /* STScenes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STScenes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B38D12212A4762F300639701 /* STScenes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STScenes.h; sourceTree = "<group>"; };
-		B38D12302A47630E00639701 /* STCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B38D12322A47630E00639701 /* STCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STCore.h; sourceTree = "<group>"; };
-		B38D12402A47632500639701 /* STNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B38D12422A47632500639701 /* STNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STNetwork.h; sourceTree = "<group>"; };
-		B38D12502A47634800639701 /* STEntities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STEntities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B38D12522A47634800639701 /* STEntities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STEntities.h; sourceTree = "<group>"; };
-		B38D12602A47637000639701 /* STComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B38D12622A47637000639701 /* STComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STComponents.h; sourceTree = "<group>"; };
+		B30A99EF2A7ECC59001434C9 /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30A99F22A7ECC59001434C9 /* RickAndMortyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyApp.swift; sourceTree = "<group>"; };
+		B30A99F62A7ECC5A001434C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B30A99F92A7ECC5A001434C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B30A99FF2A7ECC5A001434C9 /* RickAndMortyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMortyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30A9A032A7ECC5A001434C9 /* RickAndMortyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyTests.swift; sourceTree = "<group>"; };
+		B30A9A092A7ECC5A001434C9 /* RickAndMortyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickAndMortyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30A9A0D2A7ECC5A001434C9 /* RickAndMortyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyUITests.swift; sourceTree = "<group>"; };
+		B30A9A0F2A7ECC5A001434C9 /* RickAndMortyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B30A9A242A7ECC7C001434C9 /* STScenes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STScenes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30A9A262A7ECC7C001434C9 /* STScenes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STScenes.h; sourceTree = "<group>"; };
+		B30A9A352A7ED07F001434C9 /* STCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30A9A372A7ED07F001434C9 /* STCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STCore.h; sourceTree = "<group>"; };
+		B30A9A452A7ED08C001434C9 /* STNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30A9A472A7ED08C001434C9 /* STNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STNetwork.h; sourceTree = "<group>"; };
+		B30A9A552A7ED0A1001434C9 /* STEntities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STEntities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30A9A572A7ED0A1001434C9 /* STEntities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STEntities.h; sourceTree = "<group>"; };
+		B30A9A652A7ED0B6001434C9 /* STComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30A9A672A7ED0B6001434C9 /* STComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STComponents.h; sourceTree = "<group>"; };
+		B30A9A7C2A7ED167001434C9 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
+		B30A9A7F2A7ED1A9001434C9 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
+		B30A9A842A7ED1E2001434C9 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
+		B30A9A862A7ED1EA001434C9 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
+		B30A9A882A7ED1F3001434C9 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
+		B30A9A8B2A7ED237001434C9 /* ImageConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConvertible.swift; sourceTree = "<group>"; };
+		B30A9A8D2A7ED26F001434C9 /* ComponentImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentImage.swift; sourceTree = "<group>"; };
+		B30A9A8F2A7ED29B001434C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B30A9A932A7ED389001434C9 /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B309E97B2A475A9800E098BF /* Frameworks */ = {
+		B30A99EC2A7ECC59001434C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B38D12562A47634800639701 /* STEntities.framework in Frameworks */,
-				B38D12362A47630E00639701 /* STCore.framework in Frameworks */,
-				B38D12662A47637000639701 /* STComponents.framework in Frameworks */,
-				B38D126D2A4765FD00639701 /* Alamofire in Frameworks */,
-				B38D12462A47632500639701 /* STNetwork.framework in Frameworks */,
-				B38D12252A4762F300639701 /* STScenes.framework in Frameworks */,
+				B30A9A4B2A7ED08C001434C9 /* STNetwork.framework in Frameworks */,
+				B30A9A6B2A7ED0B6001434C9 /* STComponents.framework in Frameworks */,
+				B30A9A2A2A7ECC7C001434C9 /* STScenes.framework in Frameworks */,
+				B30A9A5B2A7ED0A1001434C9 /* STEntities.framework in Frameworks */,
+				B30A9A3B2A7ED07F001434C9 /* STCore.framework in Frameworks */,
+				B30A9A1E2A7ECC6C001434C9 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B309E98B2A475A9900E098BF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B309E9952A475A9900E098BF /* Frameworks */ = {
+		B30A99FC2A7ECC5A001434C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B38D121C2A4762F300639701 /* Frameworks */ = {
+		B30A9A062A7ECC5A001434C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B38D122D2A47630E00639701 /* Frameworks */ = {
+		B30A9A212A7ECC7C001434C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30A9A772A7ED100001434C9 /* STComponents.framework in Frameworks */,
+				B30A9A782A7ED100001434C9 /* STCore.framework in Frameworks */,
+				B30A9A792A7ED100001434C9 /* STEntities.framework in Frameworks */,
+				B30A9A7A2A7ED100001434C9 /* STNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30A9A322A7ED07F001434C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B38D123D2A47632500639701 /* Frameworks */ = {
+		B30A9A422A7ED08C001434C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B38D12722A47666D00639701 /* Alamofire in Frameworks */,
+				B30A9A732A7ED0E2001434C9 /* STCore.framework in Frameworks */,
+				B30A9A742A7ED0E2001434C9 /* STEntities.framework in Frameworks */,
+				B30A9A722A7ED0D8001434C9 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B38D124D2A47634800639701 /* Frameworks */ = {
+		B30A9A522A7ED0A1001434C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B38D125D2A47637000639701 /* Frameworks */ = {
+		B30A9A622A7ED0B6001434C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30A9A752A7ED0EE001434C9 /* STCore.framework in Frameworks */,
+				B30A9A762A7ED0EE001434C9 /* STEntities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B309E9752A475A9800E098BF = {
+		B30A99E62A7ECC59001434C9 = {
 			isa = PBXGroup;
 			children = (
-				B309E9912A475A9900E098BF /* RickAndMortyTests */,
-				B309E99B2A475A9900E098BF /* RickAndMortyUITests */,
-				B38D12202A4762F300639701 /* STScenes */,
-				B38D12312A47630E00639701 /* STCore */,
-				B38D12412A47632500639701 /* STNetwork */,
-				B38D12512A47634800639701 /* STEntities */,
-				B38D12612A47637000639701 /* STComponents */,
-				B309E97F2A475A9800E098BF /* Products */,
-				B38D12702A47666D00639701 /* Frameworks */,
+				B30A99F12A7ECC59001434C9 /* RickAndMorty */,
+				B30A9A022A7ECC5A001434C9 /* RickAndMortyTests */,
+				B30A9A0C2A7ECC5A001434C9 /* RickAndMortyUITests */,
+				B30A9A252A7ECC7C001434C9 /* STScenes */,
+				B30A9A362A7ED07F001434C9 /* STCore */,
+				B30A9A462A7ED08C001434C9 /* STNetwork */,
+				B30A9A562A7ED0A1001434C9 /* STEntities */,
+				B30A9A662A7ED0B6001434C9 /* STComponents */,
+				B30A99F02A7ECC59001434C9 /* Products */,
+				B30A9A702A7ED0D8001434C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		B309E97F2A475A9800E098BF /* Products */ = {
+		B30A99F02A7ECC59001434C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B309E97E2A475A9800E098BF /* RickAndMorty.app */,
-				B309E98E2A475A9900E098BF /* RickAndMortyTests.xctest */,
-				B309E9982A475A9900E098BF /* RickAndMortyUITests.xctest */,
-				B38D121F2A4762F300639701 /* STScenes.framework */,
-				B38D12302A47630E00639701 /* STCore.framework */,
-				B38D12402A47632500639701 /* STNetwork.framework */,
-				B38D12502A47634800639701 /* STEntities.framework */,
-				B38D12602A47637000639701 /* STComponents.framework */,
+				B30A99EF2A7ECC59001434C9 /* RickAndMorty.app */,
+				B30A99FF2A7ECC5A001434C9 /* RickAndMortyTests.xctest */,
+				B30A9A092A7ECC5A001434C9 /* RickAndMortyUITests.xctest */,
+				B30A9A242A7ECC7C001434C9 /* STScenes.framework */,
+				B30A9A352A7ED07F001434C9 /* STCore.framework */,
+				B30A9A452A7ED08C001434C9 /* STNetwork.framework */,
+				B30A9A552A7ED0A1001434C9 /* STEntities.framework */,
+				B30A9A652A7ED0B6001434C9 /* STComponents.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B309E9872A475A9900E098BF /* Preview Content */ = {
+		B30A99F12A7ECC59001434C9 /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
-				B309E9882A475A9900E098BF /* Preview Assets.xcassets */,
+				B30A99F22A7ECC59001434C9 /* RickAndMortyApp.swift */,
+				B30A99F62A7ECC5A001434C9 /* Assets.xcassets */,
+				B30A99F82A7ECC5A001434C9 /* Preview Content */,
+			);
+			path = RickAndMorty;
+			sourceTree = "<group>";
+		};
+		B30A99F82A7ECC5A001434C9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B30A99F92A7ECC5A001434C9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B309E9912A475A9900E098BF /* RickAndMortyTests */ = {
+		B30A9A022A7ECC5A001434C9 /* RickAndMortyTests */ = {
 			isa = PBXGroup;
 			children = (
-				B309E9922A475A9900E098BF /* RickAndMortyTests.swift */,
+				B30A9A032A7ECC5A001434C9 /* RickAndMortyTests.swift */,
 			);
 			path = RickAndMortyTests;
 			sourceTree = "<group>";
 		};
-		B309E99B2A475A9900E098BF /* RickAndMortyUITests */ = {
+		B30A9A0C2A7ECC5A001434C9 /* RickAndMortyUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B309E99C2A475A9900E098BF /* RickAndMortyUITests.swift */,
-				B309E99E2A475A9900E098BF /* RickAndMortyUITestsLaunchTests.swift */,
+				B30A9A0D2A7ECC5A001434C9 /* RickAndMortyUITests.swift */,
+				B30A9A0F2A7ECC5A001434C9 /* RickAndMortyUITestsLaunchTests.swift */,
 			);
 			path = RickAndMortyUITests;
 			sourceTree = "<group>";
 		};
-		B30B386B2A49814E00FB7E26 /* Extensions */ = {
+		B30A9A252A7ECC7C001434C9 /* STScenes */ = {
 			isa = PBXGroup;
 			children = (
-				B30B386C2A49816500FB7E26 /* BundleExtensions.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		B30B386E2A49816B00FB7E26 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				B30B38782A49821C00FB7E26 /* BundleExtensions.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		B30B386F2A4981A000FB7E26 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				B30B38762A49821300FB7E26 /* BundleExtensions.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		B30B38702A4981AF00FB7E26 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				B30B38742A49820A00FB7E26 /* BundleExtensions.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		B30B38712A4981BA00FB7E26 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				B30B38722A4981FF00FB7E26 /* BundleExtensions.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		B30B387C2A49846400FB7E26 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				B30B387D2A4984A000FB7E26 /* ImageConvertible.swift */,
-				B30B387F2A49852500FB7E26 /* ComponentImage.swift */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		B30B38B12A4990E500FB7E26 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B38D12192A47602800639701 /* Info.plist */,
-				B309E9812A475A9800E098BF /* RickAndMortyApp.swift */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		B30B38B22A49910800FB7E26 /* Scenes */ = {
-			isa = PBXGroup;
-			children = (
-				B30B38B32A49911200FB7E26 /* Splash */,
-			);
-			path = Scenes;
-			sourceTree = "<group>";
-		};
-		B30B38B32A49911200FB7E26 /* Splash */ = {
-			isa = PBXGroup;
-			children = (
-				B309E9832A475A9800E098BF /* Splash.swift */,
-			);
-			path = Splash;
-			sourceTree = "<group>";
-		};
-		B38D12202A4762F300639701 /* STScenes */ = {
-			isa = PBXGroup;
-			children = (
-				B309E9872A475A9900E098BF /* Preview Content */,
-				B30B38B22A49910800FB7E26 /* Scenes */,
-				B30B38B12A4990E500FB7E26 /* Resources */,
-				B30B386B2A49814E00FB7E26 /* Extensions */,
-				B38D12212A4762F300639701 /* STScenes.h */,
+				B30A9A912A7ED332001434C9 /* Scenes */,
+				B30A9A7B2A7ED13C001434C9 /* Extensions */,
+				B30A9A262A7ECC7C001434C9 /* STScenes.h */,
 			);
 			path = STScenes;
 			sourceTree = "<group>";
 		};
-		B38D12312A47630E00639701 /* STCore */ = {
+		B30A9A362A7ED07F001434C9 /* STCore */ = {
 			isa = PBXGroup;
 			children = (
-				B30B386E2A49816B00FB7E26 /* Extensions */,
-				B38D12322A47630E00639701 /* STCore.h */,
+				B30A9A7E2A7ED18C001434C9 /* Extensions */,
+				B30A9A372A7ED07F001434C9 /* STCore.h */,
 			);
 			path = STCore;
 			sourceTree = "<group>";
 		};
-		B38D12412A47632500639701 /* STNetwork */ = {
+		B30A9A462A7ED08C001434C9 /* STNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				B30B386F2A4981A000FB7E26 /* Extensions */,
-				B38D12422A47632500639701 /* STNetwork.h */,
+				B30A9A812A7ED1C0001434C9 /* Extensions */,
+				B30A9A472A7ED08C001434C9 /* STNetwork.h */,
 			);
 			path = STNetwork;
 			sourceTree = "<group>";
 		};
-		B38D12512A47634800639701 /* STEntities */ = {
+		B30A9A562A7ED0A1001434C9 /* STEntities */ = {
 			isa = PBXGroup;
 			children = (
-				B30B38702A4981AF00FB7E26 /* Extensions */,
-				B38D12522A47634800639701 /* STEntities.h */,
+				B30A9A822A7ED1CE001434C9 /* Extensions */,
+				B30A9A572A7ED0A1001434C9 /* STEntities.h */,
 			);
 			path = STEntities;
 			sourceTree = "<group>";
 		};
-		B38D12612A47637000639701 /* STComponents */ = {
+		B30A9A662A7ED0B6001434C9 /* STComponents */ = {
 			isa = PBXGroup;
 			children = (
-				B30B387C2A49846400FB7E26 /* Helpers */,
-				B30B38712A4981BA00FB7E26 /* Extensions */,
-				B38D12622A47637000639701 /* STComponents.h */,
-				B30B387A2A49845B00FB7E26 /* Assets.xcassets */,
+				B30A9A8A2A7ED21D001434C9 /* Helpers */,
+				B30A9A832A7ED1D3001434C9 /* Extensions */,
+				B30A9A672A7ED0B6001434C9 /* STComponents.h */,
+				B30A9A8F2A7ED29B001434C9 /* Assets.xcassets */,
 			);
 			path = STComponents;
 			sourceTree = "<group>";
 		};
-		B38D12702A47666D00639701 /* Frameworks */ = {
+		B30A9A702A7ED0D8001434C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B30A9A7B2A7ED13C001434C9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B30A9A7C2A7ED167001434C9 /* BundleExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B30A9A7E2A7ED18C001434C9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B30A9A7F2A7ED1A9001434C9 /* BundleExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B30A9A812A7ED1C0001434C9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B30A9A842A7ED1E2001434C9 /* BundleExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B30A9A822A7ED1CE001434C9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B30A9A862A7ED1EA001434C9 /* BundleExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B30A9A832A7ED1D3001434C9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B30A9A882A7ED1F3001434C9 /* BundleExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B30A9A8A2A7ED21D001434C9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B30A9A8B2A7ED237001434C9 /* ImageConvertible.swift */,
+				B30A9A8D2A7ED26F001434C9 /* ComponentImage.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B30A9A912A7ED332001434C9 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B30A9A922A7ED374001434C9 /* Splash */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		B30A9A922A7ED374001434C9 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				B30A9A932A7ED389001434C9 /* Splash.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B38D121A2A4762F300639701 /* Headers */ = {
+		B30A9A1F2A7ECC7C001434C9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B38D12222A4762F300639701 /* STScenes.h in Headers */,
+				B30A9A272A7ECC7C001434C9 /* STScenes.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B38D122B2A47630E00639701 /* Headers */ = {
+		B30A9A302A7ED07F001434C9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B38D12332A47630E00639701 /* STCore.h in Headers */,
+				B30A9A382A7ED07F001434C9 /* STCore.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B38D123B2A47632500639701 /* Headers */ = {
+		B30A9A402A7ED08C001434C9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B38D12432A47632500639701 /* STNetwork.h in Headers */,
+				B30A9A482A7ED08C001434C9 /* STNetwork.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B38D124B2A47634800639701 /* Headers */ = {
+		B30A9A502A7ED0A1001434C9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B38D12532A47634800639701 /* STEntities.h in Headers */,
+				B30A9A582A7ED0A1001434C9 /* STEntities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B38D125B2A47637000639701 /* Headers */ = {
+		B30A9A602A7ED0B6001434C9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B38D12632A47637000639701 /* STComponents.h in Headers */,
+				B30A9A682A7ED0B6001434C9 /* STComponents.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B309E97D2A475A9800E098BF /* RickAndMorty */ = {
+		B30A99EE2A7ECC59001434C9 /* RickAndMorty */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B309E9A22A475A9900E098BF /* Build configuration list for PBXNativeTarget "RickAndMorty" */;
+			buildConfigurationList = B30A9A132A7ECC5A001434C9 /* Build configuration list for PBXNativeTarget "RickAndMorty" */;
 			buildPhases = (
-				B309E97A2A475A9800E098BF /* Sources */,
-				B309E97B2A475A9800E098BF /* Frameworks */,
-				B309E97C2A475A9800E098BF /* Resources */,
-				B38D12272A4762F300639701 /* Embed Frameworks */,
+				B30A99EB2A7ECC59001434C9 /* Sources */,
+				B30A99EC2A7ECC59001434C9 /* Frameworks */,
+				B30A99ED2A7ECC59001434C9 /* Resources */,
+				B30A9A2F2A7ECC7C001434C9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B38D12242A4762F300639701 /* PBXTargetDependency */,
-				B38D12352A47630E00639701 /* PBXTargetDependency */,
-				B38D12452A47632500639701 /* PBXTargetDependency */,
-				B38D12552A47634800639701 /* PBXTargetDependency */,
-				B38D12652A47637000639701 /* PBXTargetDependency */,
+				B30A9A292A7ECC7C001434C9 /* PBXTargetDependency */,
+				B30A9A3A2A7ED07F001434C9 /* PBXTargetDependency */,
+				B30A9A4A2A7ED08C001434C9 /* PBXTargetDependency */,
+				B30A9A5A2A7ED0A1001434C9 /* PBXTargetDependency */,
+				B30A9A6A2A7ED0B6001434C9 /* PBXTargetDependency */,
 			);
 			name = RickAndMorty;
 			packageProductDependencies = (
-				B38D126C2A4765FD00639701 /* Alamofire */,
+				B30A9A1D2A7ECC6C001434C9 /* Alamofire */,
 			);
 			productName = RickAndMorty;
-			productReference = B309E97E2A475A9800E098BF /* RickAndMorty.app */;
+			productReference = B30A99EF2A7ECC59001434C9 /* RickAndMorty.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B309E98D2A475A9900E098BF /* RickAndMortyTests */ = {
+		B30A99FE2A7ECC5A001434C9 /* RickAndMortyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B309E9A52A475A9900E098BF /* Build configuration list for PBXNativeTarget "RickAndMortyTests" */;
+			buildConfigurationList = B30A9A162A7ECC5A001434C9 /* Build configuration list for PBXNativeTarget "RickAndMortyTests" */;
 			buildPhases = (
-				B309E98A2A475A9900E098BF /* Sources */,
-				B309E98B2A475A9900E098BF /* Frameworks */,
-				B309E98C2A475A9900E098BF /* Resources */,
+				B30A99FB2A7ECC5A001434C9 /* Sources */,
+				B30A99FC2A7ECC5A001434C9 /* Frameworks */,
+				B30A99FD2A7ECC5A001434C9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B309E9902A475A9900E098BF /* PBXTargetDependency */,
+				B30A9A012A7ECC5A001434C9 /* PBXTargetDependency */,
 			);
 			name = RickAndMortyTests;
 			productName = RickAndMortyTests;
-			productReference = B309E98E2A475A9900E098BF /* RickAndMortyTests.xctest */;
+			productReference = B30A99FF2A7ECC5A001434C9 /* RickAndMortyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B309E9972A475A9900E098BF /* RickAndMortyUITests */ = {
+		B30A9A082A7ECC5A001434C9 /* RickAndMortyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B309E9A82A475A9900E098BF /* Build configuration list for PBXNativeTarget "RickAndMortyUITests" */;
+			buildConfigurationList = B30A9A192A7ECC5A001434C9 /* Build configuration list for PBXNativeTarget "RickAndMortyUITests" */;
 			buildPhases = (
-				B309E9942A475A9900E098BF /* Sources */,
-				B309E9952A475A9900E098BF /* Frameworks */,
-				B309E9962A475A9900E098BF /* Resources */,
+				B30A9A052A7ECC5A001434C9 /* Sources */,
+				B30A9A062A7ECC5A001434C9 /* Frameworks */,
+				B30A9A072A7ECC5A001434C9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B309E99A2A475A9900E098BF /* PBXTargetDependency */,
+				B30A9A0B2A7ECC5A001434C9 /* PBXTargetDependency */,
 			);
 			name = RickAndMortyUITests;
 			productName = RickAndMortyUITests;
-			productReference = B309E9982A475A9900E098BF /* RickAndMortyUITests.xctest */;
+			productReference = B30A9A092A7ECC5A001434C9 /* RickAndMortyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		B38D121E2A4762F300639701 /* STScenes */ = {
+		B30A9A232A7ECC7C001434C9 /* STScenes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B38D122A2A4762F300639701 /* Build configuration list for PBXNativeTarget "STScenes" */;
+			buildConfigurationList = B30A9A2C2A7ECC7C001434C9 /* Build configuration list for PBXNativeTarget "STScenes" */;
 			buildPhases = (
-				B38D121A2A4762F300639701 /* Headers */,
-				B38D121B2A4762F300639701 /* Sources */,
-				B38D121C2A4762F300639701 /* Frameworks */,
-				B38D121D2A4762F300639701 /* Resources */,
+				B30A9A1F2A7ECC7C001434C9 /* Headers */,
+				B30A9A202A7ECC7C001434C9 /* Sources */,
+				B30A9A212A7ECC7C001434C9 /* Frameworks */,
+				B30A9A222A7ECC7C001434C9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -517,17 +534,17 @@
 			);
 			name = STScenes;
 			productName = STScenes;
-			productReference = B38D121F2A4762F300639701 /* STScenes.framework */;
+			productReference = B30A9A242A7ECC7C001434C9 /* STScenes.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B38D122F2A47630E00639701 /* STCore */ = {
+		B30A9A342A7ED07F001434C9 /* STCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B38D12382A47630E00639701 /* Build configuration list for PBXNativeTarget "STCore" */;
+			buildConfigurationList = B30A9A3D2A7ED07F001434C9 /* Build configuration list for PBXNativeTarget "STCore" */;
 			buildPhases = (
-				B38D122B2A47630E00639701 /* Headers */,
-				B38D122C2A47630E00639701 /* Sources */,
-				B38D122D2A47630E00639701 /* Frameworks */,
-				B38D122E2A47630E00639701 /* Resources */,
+				B30A9A302A7ED07F001434C9 /* Headers */,
+				B30A9A312A7ED07F001434C9 /* Sources */,
+				B30A9A322A7ED07F001434C9 /* Frameworks */,
+				B30A9A332A7ED07F001434C9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -535,17 +552,17 @@
 			);
 			name = STCore;
 			productName = STCore;
-			productReference = B38D12302A47630E00639701 /* STCore.framework */;
+			productReference = B30A9A352A7ED07F001434C9 /* STCore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B38D123F2A47632500639701 /* STNetwork */ = {
+		B30A9A442A7ED08C001434C9 /* STNetwork */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B38D12482A47632500639701 /* Build configuration list for PBXNativeTarget "STNetwork" */;
+			buildConfigurationList = B30A9A4D2A7ED08C001434C9 /* Build configuration list for PBXNativeTarget "STNetwork" */;
 			buildPhases = (
-				B38D123B2A47632500639701 /* Headers */,
-				B38D123C2A47632500639701 /* Sources */,
-				B38D123D2A47632500639701 /* Frameworks */,
-				B38D123E2A47632500639701 /* Resources */,
+				B30A9A402A7ED08C001434C9 /* Headers */,
+				B30A9A412A7ED08C001434C9 /* Sources */,
+				B30A9A422A7ED08C001434C9 /* Frameworks */,
+				B30A9A432A7ED08C001434C9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -553,20 +570,20 @@
 			);
 			name = STNetwork;
 			packageProductDependencies = (
-				B38D12712A47666D00639701 /* Alamofire */,
+				B30A9A712A7ED0D8001434C9 /* Alamofire */,
 			);
 			productName = STNetwork;
-			productReference = B38D12402A47632500639701 /* STNetwork.framework */;
+			productReference = B30A9A452A7ED08C001434C9 /* STNetwork.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B38D124F2A47634800639701 /* STEntities */ = {
+		B30A9A542A7ED0A1001434C9 /* STEntities */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B38D12582A47634800639701 /* Build configuration list for PBXNativeTarget "STEntities" */;
+			buildConfigurationList = B30A9A5D2A7ED0A1001434C9 /* Build configuration list for PBXNativeTarget "STEntities" */;
 			buildPhases = (
-				B38D124B2A47634800639701 /* Headers */,
-				B38D124C2A47634800639701 /* Sources */,
-				B38D124D2A47634800639701 /* Frameworks */,
-				B38D124E2A47634800639701 /* Resources */,
+				B30A9A502A7ED0A1001434C9 /* Headers */,
+				B30A9A512A7ED0A1001434C9 /* Sources */,
+				B30A9A522A7ED0A1001434C9 /* Frameworks */,
+				B30A9A532A7ED0A1001434C9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -574,17 +591,17 @@
 			);
 			name = STEntities;
 			productName = STEntities;
-			productReference = B38D12502A47634800639701 /* STEntities.framework */;
+			productReference = B30A9A552A7ED0A1001434C9 /* STEntities.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B38D125F2A47637000639701 /* STComponents */ = {
+		B30A9A642A7ED0B6001434C9 /* STComponents */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B38D12682A47637000639701 /* Build configuration list for PBXNativeTarget "STComponents" */;
+			buildConfigurationList = B30A9A6D2A7ED0B6001434C9 /* Build configuration list for PBXNativeTarget "STComponents" */;
 			buildPhases = (
-				B38D125B2A47637000639701 /* Headers */,
-				B38D125C2A47637000639701 /* Sources */,
-				B38D125D2A47637000639701 /* Frameworks */,
-				B38D125E2A47637000639701 /* Resources */,
+				B30A9A602A7ED0B6001434C9 /* Headers */,
+				B30A9A612A7ED0B6001434C9 /* Sources */,
+				B30A9A622A7ED0B6001434C9 /* Frameworks */,
+				B30A9A632A7ED0B6001434C9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -592,53 +609,53 @@
 			);
 			name = STComponents;
 			productName = STComponents;
-			productReference = B38D12602A47637000639701 /* STComponents.framework */;
+			productReference = B30A9A652A7ED0B6001434C9 /* STComponents.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B309E9762A475A9800E098BF /* Project object */ = {
+		B30A99E72A7ECC59001434C9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					B309E97D2A475A9800E098BF = {
+					B30A99EE2A7ECC59001434C9 = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					B309E98D2A475A9900E098BF = {
+					B30A99FE2A7ECC5A001434C9 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = B309E97D2A475A9800E098BF;
+						TestTargetID = B30A99EE2A7ECC59001434C9;
 					};
-					B309E9972A475A9900E098BF = {
+					B30A9A082A7ECC5A001434C9 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = B309E97D2A475A9800E098BF;
+						TestTargetID = B30A99EE2A7ECC59001434C9;
 					};
-					B38D121E2A4762F300639701 = {
-						CreatedOnToolsVersion = 14.2;
-						LastSwiftMigration = 1420;
-					};
-					B38D122F2A47630E00639701 = {
+					B30A9A232A7ECC7C001434C9 = {
 						CreatedOnToolsVersion = 14.2;
 						LastSwiftMigration = 1420;
 					};
-					B38D123F2A47632500639701 = {
+					B30A9A342A7ED07F001434C9 = {
 						CreatedOnToolsVersion = 14.2;
 						LastSwiftMigration = 1420;
 					};
-					B38D124F2A47634800639701 = {
+					B30A9A442A7ED08C001434C9 = {
 						CreatedOnToolsVersion = 14.2;
 						LastSwiftMigration = 1420;
 					};
-					B38D125F2A47637000639701 = {
+					B30A9A542A7ED0A1001434C9 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+					B30A9A642A7ED0B6001434C9 = {
 						CreatedOnToolsVersion = 14.2;
 						LastSwiftMigration = 1420;
 					};
 				};
 			};
-			buildConfigurationList = B309E9792A475A9800E098BF /* Build configuration list for PBXProject "RickAndMorty" */;
+			buildConfigurationList = B30A99EA2A7ECC59001434C9 /* Build configuration list for PBXProject "RickAndMorty" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -646,198 +663,199 @@
 				en,
 				Base,
 			);
-			mainGroup = B309E9752A475A9800E098BF;
+			mainGroup = B30A99E62A7ECC59001434C9;
 			packageReferences = (
-				B38D126B2A4765FD00639701 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				B30A9A1C2A7ECC6C001434C9 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
-			productRefGroup = B309E97F2A475A9800E098BF /* Products */;
+			productRefGroup = B30A99F02A7ECC59001434C9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B309E97D2A475A9800E098BF /* RickAndMorty */,
-				B309E98D2A475A9900E098BF /* RickAndMortyTests */,
-				B309E9972A475A9900E098BF /* RickAndMortyUITests */,
-				B38D121E2A4762F300639701 /* STScenes */,
-				B38D122F2A47630E00639701 /* STCore */,
-				B38D123F2A47632500639701 /* STNetwork */,
-				B38D124F2A47634800639701 /* STEntities */,
-				B38D125F2A47637000639701 /* STComponents */,
+				B30A99EE2A7ECC59001434C9 /* RickAndMorty */,
+				B30A99FE2A7ECC5A001434C9 /* RickAndMortyTests */,
+				B30A9A082A7ECC5A001434C9 /* RickAndMortyUITests */,
+				B30A9A232A7ECC7C001434C9 /* STScenes */,
+				B30A9A342A7ED07F001434C9 /* STCore */,
+				B30A9A442A7ED08C001434C9 /* STNetwork */,
+				B30A9A542A7ED0A1001434C9 /* STEntities */,
+				B30A9A642A7ED0B6001434C9 /* STComponents */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B309E97C2A475A9800E098BF /* Resources */ = {
+		B30A99ED2A7ECC59001434C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B309E9892A475A9900E098BF /* Preview Assets.xcassets in Resources */,
+				B30A99FA2A7ECC5A001434C9 /* Preview Assets.xcassets in Resources */,
+				B30A99F72A7ECC5A001434C9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B309E98C2A475A9900E098BF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B309E9962A475A9900E098BF /* Resources */ = {
+		B30A99FD2A7ECC5A001434C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B38D121D2A4762F300639701 /* Resources */ = {
+		B30A9A072A7ECC5A001434C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B38D122E2A47630E00639701 /* Resources */ = {
+		B30A9A222A7ECC7C001434C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B38D123E2A47632500639701 /* Resources */ = {
+		B30A9A332A7ED07F001434C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B38D124E2A47634800639701 /* Resources */ = {
+		B30A9A432A7ED08C001434C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B38D125E2A47637000639701 /* Resources */ = {
+		B30A9A532A7ED0A1001434C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B30B387B2A49845B00FB7E26 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30A9A632A7ED0B6001434C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30A9A902A7ED29B001434C9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B309E97A2A475A9800E098BF /* Sources */ = {
+		B30A99EB2A7ECC59001434C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B309E9842A475A9800E098BF /* Splash.swift in Sources */,
-				B309E9822A475A9800E098BF /* RickAndMortyApp.swift in Sources */,
+				B30A99F32A7ECC59001434C9 /* RickAndMortyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B309E98A2A475A9900E098BF /* Sources */ = {
+		B30A99FB2A7ECC5A001434C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B309E9932A475A9900E098BF /* RickAndMortyTests.swift in Sources */,
+				B30A9A042A7ECC5A001434C9 /* RickAndMortyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B309E9942A475A9900E098BF /* Sources */ = {
+		B30A9A052A7ECC5A001434C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B309E99D2A475A9900E098BF /* RickAndMortyUITests.swift in Sources */,
-				B309E99F2A475A9900E098BF /* RickAndMortyUITestsLaunchTests.swift in Sources */,
+				B30A9A0E2A7ECC5A001434C9 /* RickAndMortyUITests.swift in Sources */,
+				B30A9A102A7ECC5A001434C9 /* RickAndMortyUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B38D121B2A4762F300639701 /* Sources */ = {
+		B30A9A202A7ECC7C001434C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B30B386D2A49816500FB7E26 /* BundleExtensions.swift in Sources */,
+				B30A9A942A7ED389001434C9 /* Splash.swift in Sources */,
+				B30A9A7D2A7ED167001434C9 /* BundleExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B38D122C2A47630E00639701 /* Sources */ = {
+		B30A9A312A7ED07F001434C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B30B38792A49821C00FB7E26 /* BundleExtensions.swift in Sources */,
+				B30A9A802A7ED1A9001434C9 /* BundleExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B38D123C2A47632500639701 /* Sources */ = {
+		B30A9A412A7ED08C001434C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B30B38772A49821300FB7E26 /* BundleExtensions.swift in Sources */,
+				B30A9A852A7ED1E2001434C9 /* BundleExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B38D124C2A47634800639701 /* Sources */ = {
+		B30A9A512A7ED0A1001434C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B30B38752A49820A00FB7E26 /* BundleExtensions.swift in Sources */,
+				B30A9A872A7ED1EA001434C9 /* BundleExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B38D125C2A47637000639701 /* Sources */ = {
+		B30A9A612A7ED0B6001434C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B30B38732A4981FF00FB7E26 /* BundleExtensions.swift in Sources */,
-				B30B387E2A4984A000FB7E26 /* ImageConvertible.swift in Sources */,
-				B30B38802A49852500FB7E26 /* ComponentImage.swift in Sources */,
+				B30A9A892A7ED1F3001434C9 /* BundleExtensions.swift in Sources */,
+				B30A9A8C2A7ED237001434C9 /* ImageConvertible.swift in Sources */,
+				B30A9A8E2A7ED26F001434C9 /* ComponentImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B309E9902A475A9900E098BF /* PBXTargetDependency */ = {
+		B30A9A012A7ECC5A001434C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B309E97D2A475A9800E098BF /* RickAndMorty */;
-			targetProxy = B309E98F2A475A9900E098BF /* PBXContainerItemProxy */;
+			target = B30A99EE2A7ECC59001434C9 /* RickAndMorty */;
+			targetProxy = B30A9A002A7ECC5A001434C9 /* PBXContainerItemProxy */;
 		};
-		B309E99A2A475A9900E098BF /* PBXTargetDependency */ = {
+		B30A9A0B2A7ECC5A001434C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B309E97D2A475A9800E098BF /* RickAndMorty */;
-			targetProxy = B309E9992A475A9900E098BF /* PBXContainerItemProxy */;
+			target = B30A99EE2A7ECC59001434C9 /* RickAndMorty */;
+			targetProxy = B30A9A0A2A7ECC5A001434C9 /* PBXContainerItemProxy */;
 		};
-		B38D12242A4762F300639701 /* PBXTargetDependency */ = {
+		B30A9A292A7ECC7C001434C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B38D121E2A4762F300639701 /* STScenes */;
-			targetProxy = B38D12232A4762F300639701 /* PBXContainerItemProxy */;
+			target = B30A9A232A7ECC7C001434C9 /* STScenes */;
+			targetProxy = B30A9A282A7ECC7C001434C9 /* PBXContainerItemProxy */;
 		};
-		B38D12352A47630E00639701 /* PBXTargetDependency */ = {
+		B30A9A3A2A7ED07F001434C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B38D122F2A47630E00639701 /* STCore */;
-			targetProxy = B38D12342A47630E00639701 /* PBXContainerItemProxy */;
+			target = B30A9A342A7ED07F001434C9 /* STCore */;
+			targetProxy = B30A9A392A7ED07F001434C9 /* PBXContainerItemProxy */;
 		};
-		B38D12452A47632500639701 /* PBXTargetDependency */ = {
+		B30A9A4A2A7ED08C001434C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B38D123F2A47632500639701 /* STNetwork */;
-			targetProxy = B38D12442A47632500639701 /* PBXContainerItemProxy */;
+			target = B30A9A442A7ED08C001434C9 /* STNetwork */;
+			targetProxy = B30A9A492A7ED08C001434C9 /* PBXContainerItemProxy */;
 		};
-		B38D12552A47634800639701 /* PBXTargetDependency */ = {
+		B30A9A5A2A7ED0A1001434C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B38D124F2A47634800639701 /* STEntities */;
-			targetProxy = B38D12542A47634800639701 /* PBXContainerItemProxy */;
+			target = B30A9A542A7ED0A1001434C9 /* STEntities */;
+			targetProxy = B30A9A592A7ED0A1001434C9 /* PBXContainerItemProxy */;
 		};
-		B38D12652A47637000639701 /* PBXTargetDependency */ = {
+		B30A9A6A2A7ED0B6001434C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B38D125F2A47637000639701 /* STComponents */;
-			targetProxy = B38D12642A47637000639701 /* PBXContainerItemProxy */;
+			target = B30A9A642A7ED0B6001434C9 /* STComponents */;
+			targetProxy = B30A9A692A7ED0B6001434C9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		B309E9A02A475A9900E098BF /* Debug */ = {
+		B30A9A112A7ECC5A001434C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -897,7 +915,7 @@
 			};
 			name = Debug;
 		};
-		B309E9A12A475A9900E098BF /* Release */ = {
+		B30A9A122A7ECC5A001434C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -951,18 +969,19 @@
 			};
 			name = Release;
 		};
-		B309E9A32A475A9900E098BF /* Debug */ = {
+		B30A9A142A7ECC5A001434C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"STScenes/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RickAndMorty/Preview Content\"";
 				DEVELOPMENT_TEAM = 4C2D4G4S6B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = STScenes/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -980,18 +999,19 @@
 			};
 			name = Debug;
 		};
-		B309E9A42A475A9900E098BF /* Release */ = {
+		B30A9A152A7ECC5A001434C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"STScenes/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"RickAndMorty/Preview Content\"";
 				DEVELOPMENT_TEAM = 4C2D4G4S6B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = STScenes/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -1009,7 +1029,7 @@
 			};
 			name = Release;
 		};
-		B309E9A62A475A9900E098BF /* Debug */ = {
+		B30A9A172A7ECC5A001434C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -1029,7 +1049,7 @@
 			};
 			name = Debug;
 		};
-		B309E9A72A475A9900E098BF /* Release */ = {
+		B30A9A182A7ECC5A001434C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -1049,7 +1069,7 @@
 			};
 			name = Release;
 		};
-		B309E9A92A475A9900E098BF /* Debug */ = {
+		B30A9A1A2A7ECC5A001434C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -1067,7 +1087,7 @@
 			};
 			name = Debug;
 		};
-		B309E9AA2A475A9900E098BF /* Release */ = {
+		B30A9A1B2A7ECC5A001434C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -1085,7 +1105,7 @@
 			};
 			name = Release;
 		};
-		B38D12282A4762F300639701 /* Debug */ = {
+		B30A9A2D2A7ECC7C001434C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -1117,7 +1137,7 @@
 			};
 			name = Debug;
 		};
-		B38D12292A4762F300639701 /* Release */ = {
+		B30A9A2E2A7ECC7C001434C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -1148,7 +1168,7 @@
 			};
 			name = Release;
 		};
-		B38D12392A47630E00639701 /* Debug */ = {
+		B30A9A3E2A7ED07F001434C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -1180,7 +1200,7 @@
 			};
 			name = Debug;
 		};
-		B38D123A2A47630E00639701 /* Release */ = {
+		B30A9A3F2A7ED07F001434C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -1211,7 +1231,7 @@
 			};
 			name = Release;
 		};
-		B38D12492A47632500639701 /* Debug */ = {
+		B30A9A4E2A7ED08C001434C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -1243,7 +1263,7 @@
 			};
 			name = Debug;
 		};
-		B38D124A2A47632500639701 /* Release */ = {
+		B30A9A4F2A7ED08C001434C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -1274,7 +1294,7 @@
 			};
 			name = Release;
 		};
-		B38D12592A47634800639701 /* Debug */ = {
+		B30A9A5E2A7ED0A1001434C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -1306,7 +1326,7 @@
 			};
 			name = Debug;
 		};
-		B38D125A2A47634800639701 /* Release */ = {
+		B30A9A5F2A7ED0A1001434C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -1337,7 +1357,7 @@
 			};
 			name = Release;
 		};
-		B38D12692A47637000639701 /* Debug */ = {
+		B30A9A6E2A7ED0B6001434C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -1369,7 +1389,7 @@
 			};
 			name = Debug;
 		};
-		B38D126A2A47637000639701 /* Release */ = {
+		B30A9A6F2A7ED0B6001434C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -1403,83 +1423,83 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B309E9792A475A9800E098BF /* Build configuration list for PBXProject "RickAndMorty" */ = {
+		B30A99EA2A7ECC59001434C9 /* Build configuration list for PBXProject "RickAndMorty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B309E9A02A475A9900E098BF /* Debug */,
-				B309E9A12A475A9900E098BF /* Release */,
+				B30A9A112A7ECC5A001434C9 /* Debug */,
+				B30A9A122A7ECC5A001434C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B309E9A22A475A9900E098BF /* Build configuration list for PBXNativeTarget "RickAndMorty" */ = {
+		B30A9A132A7ECC5A001434C9 /* Build configuration list for PBXNativeTarget "RickAndMorty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B309E9A32A475A9900E098BF /* Debug */,
-				B309E9A42A475A9900E098BF /* Release */,
+				B30A9A142A7ECC5A001434C9 /* Debug */,
+				B30A9A152A7ECC5A001434C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B309E9A52A475A9900E098BF /* Build configuration list for PBXNativeTarget "RickAndMortyTests" */ = {
+		B30A9A162A7ECC5A001434C9 /* Build configuration list for PBXNativeTarget "RickAndMortyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B309E9A62A475A9900E098BF /* Debug */,
-				B309E9A72A475A9900E098BF /* Release */,
+				B30A9A172A7ECC5A001434C9 /* Debug */,
+				B30A9A182A7ECC5A001434C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B309E9A82A475A9900E098BF /* Build configuration list for PBXNativeTarget "RickAndMortyUITests" */ = {
+		B30A9A192A7ECC5A001434C9 /* Build configuration list for PBXNativeTarget "RickAndMortyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B309E9A92A475A9900E098BF /* Debug */,
-				B309E9AA2A475A9900E098BF /* Release */,
+				B30A9A1A2A7ECC5A001434C9 /* Debug */,
+				B30A9A1B2A7ECC5A001434C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B38D122A2A4762F300639701 /* Build configuration list for PBXNativeTarget "STScenes" */ = {
+		B30A9A2C2A7ECC7C001434C9 /* Build configuration list for PBXNativeTarget "STScenes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B38D12282A4762F300639701 /* Debug */,
-				B38D12292A4762F300639701 /* Release */,
+				B30A9A2D2A7ECC7C001434C9 /* Debug */,
+				B30A9A2E2A7ECC7C001434C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B38D12382A47630E00639701 /* Build configuration list for PBXNativeTarget "STCore" */ = {
+		B30A9A3D2A7ED07F001434C9 /* Build configuration list for PBXNativeTarget "STCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B38D12392A47630E00639701 /* Debug */,
-				B38D123A2A47630E00639701 /* Release */,
+				B30A9A3E2A7ED07F001434C9 /* Debug */,
+				B30A9A3F2A7ED07F001434C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B38D12482A47632500639701 /* Build configuration list for PBXNativeTarget "STNetwork" */ = {
+		B30A9A4D2A7ED08C001434C9 /* Build configuration list for PBXNativeTarget "STNetwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B38D12492A47632500639701 /* Debug */,
-				B38D124A2A47632500639701 /* Release */,
+				B30A9A4E2A7ED08C001434C9 /* Debug */,
+				B30A9A4F2A7ED08C001434C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B38D12582A47634800639701 /* Build configuration list for PBXNativeTarget "STEntities" */ = {
+		B30A9A5D2A7ED0A1001434C9 /* Build configuration list for PBXNativeTarget "STEntities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B38D12592A47634800639701 /* Debug */,
-				B38D125A2A47634800639701 /* Release */,
+				B30A9A5E2A7ED0A1001434C9 /* Debug */,
+				B30A9A5F2A7ED0A1001434C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B38D12682A47637000639701 /* Build configuration list for PBXNativeTarget "STComponents" */ = {
+		B30A9A6D2A7ED0B6001434C9 /* Build configuration list for PBXNativeTarget "STComponents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B38D12692A47637000639701 /* Debug */,
-				B38D126A2A47637000639701 /* Release */,
+				B30A9A6E2A7ED0B6001434C9 /* Debug */,
+				B30A9A6F2A7ED0B6001434C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1487,28 +1507,28 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B38D126B2A4765FD00639701 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		B30A9A1C2A7ECC6C001434C9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B38D126C2A4765FD00639701 /* Alamofire */ = {
+		B30A9A1D2A7ECC6C001434C9 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B38D126B2A4765FD00639701 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = B30A9A1C2A7ECC6C001434C9 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
-		B38D12712A47666D00639701 /* Alamofire */ = {
+		B30A9A712A7ED0D8001434C9 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B38D126B2A4765FD00639701 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = B30A9A1C2A7ECC6C001434C9 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = B309E9762A475A9800E098BF /* Project object */;
+	rootObject = B30A99E72A7ECC59001434C9 /* Project object */;
 }
